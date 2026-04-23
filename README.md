@@ -47,7 +47,13 @@ CryptoPay simulates a modern crypto payment platform with:
 ### 04 - Admin Dashboard
 ![Admin Dashboard](./screenshots/04-admin.png)
 
-## Tech Stack
+## 🧠 Vision
+
+CryptoPay is designed as a foundation for a **Web3 payment infrastructure**, similar to Stripe — enabling seamless crypto transactions for digital services, marketplaces, and online platforms.
+
+---
+
+## 🛠 Tech Stack
 
 ### Frontend
 - React 19
