@@ -1,2 +1,22 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# ----- Force GitHub Linguist to track core languages -----
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.html linguist-language=HTML
+
+# ----- Exclude build artifacts and node modules -----
+node_modules/** linguist-vendored
+dist/** linguist-generated
+.wrangler/** linguist-generated
+
+# ----- Hide configs and docs from language statistics -----
+*.json linguist-detectable=false
+*.js linguist-detectable=false
+*.config.js linguist-detectable=false
+*.config.ts linguist-detectable=false
+*.md linguist-documentation
+docs/** linguist-documentation
+screenshots/** linguist-detectable=false
+migrations/** linguist-detectable=false
